@@ -1,0 +1,119 @@
+
+@font-face{
+	font-family:'Poppins';
+	src: url(fonte/Poppins-SemiBold.otf) format('opentype');
+}
+
+html{
+	font-family: 'Poppins';
+}
+
+body{
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
+	/*justify-content: center;*/
+}
+
+html body{
+	width: 100%;
+}
+
+li{
+	font-size: 14px;
+}
+
+@media (max-width: 310px){
+
+	html body{
+		width: 300px;
+	}
+	li{
+		font-size: 20px;
+	}
+	.topImage{
+		max-width: 100%;
+		height: auto;
+	}
+}
+
+li{
+	list-style-type: none;
+}
+
+header{
+	display: flex;
+}
+
+ul{
+	margin: 0;
+	padding-left: 0;
+}
+
+.topImage{	
+	background-size: cover;
+	height: auto;
+	width: 100%;
+}
+
+nav > ul > li{
+	display: table-cell;
+	padding-right: 20px;
+}
+
+header nav{
+	margin-right: auto;
+	margin-left: auto;
+	color: gray;
+}
+
+#gretacom{
+	font-size: 25px;
+	color: black;
+}
+
+#green_coding{
+	font-size: 20px;
+	font-style: italic;
+	color: gray;
+}
+
+.header_boxA{
+	display: flex;
+}
+
+.header_boxB{
+	position: absolute;
+	top: 3%;
+	right: 20%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.side p{
+	display:inline-block;
+ 	vertical-align:top; 
+}
+
+p{
+	font-size: 25px;
+}
+
+.side{
+	min-width: 300px;
+	min-height: 300px;
+	display: inline-block;
+
+}
+
+.services{
+	/*max-width:1350px;*/
+	justify-content: center;
+	margin: auto;
+	display: inline-block;
+	
+}
+
+.mots{
+	position: relative;
+}
